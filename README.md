@@ -65,7 +65,12 @@ open `COLLADA2JSON.sln` and build.
 
 ##### Mac OSX
 
-* Install [CMake](http://cmake.org/cmake/resources/software.html)
+* some packages are required.They can be easily installed using a terminal with [brew](http://mxcl.github.com/homebrew/) type:
+ * ruby <(curl -fsSkL raw.github.com/mxcl/homebrew/go)
+ * brew install cmake
+ * brew install pkgconfig
+ * brew install pcre
+ * brew install libpng
 * `cd collada2json/converter/dae2json`
 * `cmake -G Xcode`
 
